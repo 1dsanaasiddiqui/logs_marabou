@@ -1,0 +1,17 @@
+Network: resources/nnet/acasxu/ACASXU_experimental_v2a_2_4.nnet
+Number of layers: 8. Input layer size: 5. Output layer size: 5. Number of ReLUs: 300
+Total number of variables: 610
+Property: resources/properties/acas_property_3.txt
+
+Engine::processInputQuery: Input query (before preprocessing): 309 equations, 610 variables
+Engine::processInputQuery: Input query (after preprocessing): 609 equations, 813 variables
+
+Input bounds:
+	x0: [ -0.3035,  -0.2986] 
+	x1: [ -0.0095,   0.0095] 
+	x2: [  0.4934,   0.5000] 
+	x3: [  0.3000,   0.5000] 
+	x4: [  0.3000,   0.5000] 
+
+Branching heuristics set to LargestInterval
+unsat
